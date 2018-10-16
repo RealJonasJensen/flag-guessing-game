@@ -1,0 +1,44 @@
+.game-img {
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+}
+
+.game-flag {
+    width: 750px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.game-choice-btn {
+    padding: 1% 2%;
+    margin: 3%;
+    border-radius: 7px;
+    background-color: rgb(255, 225, 32);
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.game-new-btn {
+    padding: 1% 2%;
+    margin: 3%;
+    border-radius: 7px;
+    background-color: rgb(255, 65, 32);
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.game-guesses {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.game-guesses p {
+    font-size: 1.5em;
+}
